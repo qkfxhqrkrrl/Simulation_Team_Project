@@ -7,9 +7,9 @@
 
 <div align = center><img src="https://user-images.githubusercontent.com/53500865/149169258-e1340ad5-a082-4c7d-9f56-b08a4569f8e3.png" width="800" height="1000"></div>
 
-
 여기서 들어오는 수화물들은 하나 하나가 서울,인천,부산으로 고유값을 가지며 정해진 임시 저장소에 저장됩니다.
 실제 구현한 시뮬레이션은 1,2,3,4 가 서울이고 5,6이 부산, 7이 인천으로 할당하였습니다.
+
 <div align = center><img src="https://user-images.githubusercontent.com/53500865/149172191-1482f4e4-4c80-4e36-bf82-d5509f6b7e9a.png" width="800" height="500"></div>
 
 물건을 다 옮기고나면 아래에서 대기중인 직원이 자신이 옮길 수 있는 물류량이 다 할당될 떄 까지 대기하다가 제일 아래쪽에 위치한 선반부터 하나씩 물건을 채우러 출발합니다.
@@ -31,5 +31,14 @@
 이러한 시간 변화는 결국 효율로 직결되기에 이 시간을 단축시키는 레이아웃을 찾기위해 실험에 착수했습니다.
 
 - I자 모형: 작업자들은 트랙들 사이를 움직이지 않습니다. 즉, 직원은 현재 물량이 부족하더라도 하차에서 물량이 들어올 떄까지 대기합니다.
+
 <img src="https://user-images.githubusercontent.com/53500865/149169258-e1340ad5-a082-4c7d-9f56-b08a4569f8e3.png" width="100%" height="100%">
 
+- H자 모형: 중간이 뚤려있고 작업자들은 중간 지점에서 이동 여부를 함수를 사용해 판단합니다.
+
+<img src="https://user-images.githubusercontent.com/53500865/149246725-dbfb9eb0-b209-452a-8cb6-2fa30495054c.png" width="100%" height="100%">
+
+
+- V자 모형 : 뚫려있는 공간이 V자로 각 뚫려있는 지점에서 이동 여부를 판단합니다
+
+<img src="https://user-images.githubusercontent.com/53500865/149245951-8095ef3d-37de-410b-87a8-f56d20360209.png" width="100%" height="100%">
