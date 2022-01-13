@@ -1,8 +1,3 @@
-.center {
-  display: block;
-  margin: auto;
-}
-
 # Plant Simulation 을 이용한 물류배치 최적화
 - 사용 프로그램 : https://www.plm.automation.siemens.com/global/ko/products/manufacturing-planning/plant-simulation-throughput-optimization.html
 
