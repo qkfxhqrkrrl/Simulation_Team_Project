@@ -45,7 +45,7 @@
 
 ## 결론
 
-<img src="https://user-images.githubusercontent.com/53500865/149247230-75854acb-9e93-46fa-8bfc-09eca5041a89.png" width="100%" height="500">
+<img src="https://user-images.githubusercontent.com/53500865/149247230-75854acb-9e93-46fa-8bfc-09eca5041a89.png" width="800" height="500">
 
 레이아웃 간에 차이는 있었으나 유의미한 차이를 뽑지 못했습니다.
 그리고 존재하는 차이가 현실을 제대로 반영한 것이 아니기 때문에 정당성이 부족합니다.
