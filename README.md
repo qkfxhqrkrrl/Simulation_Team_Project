@@ -5,7 +5,8 @@
 
 위 보이는 트랙이 하차, 그 아래에 위치한 트랙들이 저장 창고, 마지막 아래쪽에 위치한 트랙들이 상차입니다.
 
-<img src="https://user-images.githubusercontent.com/53500865/149169258-e1340ad5-a082-4c7d-9f56-b08a4569f8e3.png" width="500" height="800">
+<center><img src="https://user-images.githubusercontent.com/53500865/149169258-e1340ad5-a082-4c7d-9f56-b08a4569f8e3.png" width="600" height="800"></center>
+
 
 여기서 들어오는 수화물들은 하나 하나가 서울,인천,부산으로 고유값을 가지며 정해진 임시 저장소에 저장됩니다.
 실제 구현한 시뮬레이션은 1,2,3,4 가 서울이고 5,6이 부산, 7이 인천으로 할당하였습니다.
